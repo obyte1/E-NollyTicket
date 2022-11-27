@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NollyTickets.Ng", "NollyTickets.Ng.csproj", "{C946EE01-C386-42C5-BE64-E74C93F33C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C946EE01-C386-42C5-BE64-E74C93F33C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C946EE01-C386-42C5-BE64-E74C93F33C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C946EE01-C386-42C5-BE64-E74C93F33C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C946EE01-C386-42C5-BE64-E74C93F33C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03B14B14-5BA2-4186-B23B-296CB1C07ABC}
+	EndGlobalSection
+EndGlobal
