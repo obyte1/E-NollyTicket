@@ -28,7 +28,7 @@
                                 <a class="nav-link c" asp-controller="Movies" asp-action="Index"> <i class="bi bi-film"></i> Movies</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle text-success" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                     <i class="bi bi-gear"></i> Management
                                 </a>
                                 <div class="dropdown-menu" style="">
@@ -38,17 +38,32 @@
                                 </div>
                             </li>
                         </ul>
-                 
-                    
-                  
-                        <form class="form-inline my-2 my-lg-0" asp-controller="Movies" asp-action="Filter" style="padding-right: 25px;">
+
+
+
+                    <form class="form-inline my-2 my-lg-0" style="padding-right: 25px;" asp-controller="Movies" asp-action="Filter">
                         <div class="input-group mb-3">
                            
                             <input name="searchString" type="text" class="form-control" placeholder="Search for a movie..." aria-label="Recipient's username" aria-describedby="button-addon2">
                                 <button class="btn btn-primary" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
                         </div>
                         </form>
-                   
+                   <ul class="navbar-nav">
+                        @await Component.InvokeAsync("ShoppingCartSummary")
+                   </ul>
+                   @*User profile section*@
+                    <div class="dropdown">
+                        <button class="btn btn-outline-success dropdown-toggle" type="button" id="profile-btn" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person-badge"></i>Hello User
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="profile-btn">
+                            <li>
+                                <a class="dropdown-item" asp-controller="Orders" asp-action="Index">
+                                    <i class="bi bi-list"></i> Orders
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>

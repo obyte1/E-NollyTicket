@@ -11,7 +11,7 @@ namespace NollyTickets.Ng.Models
         public double Price { get; set; }
 
         public int MovieId { get; set; }
-        [ForeignKey("MoveId")]
+        [ForeignKey("MovieId")]
         public  Movie  Movie { get; set; }
         public int OrderId { get; set; }
         [ForeignKey("OrderId")]

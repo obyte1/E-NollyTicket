@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NollyTickets.Ng.Data;
 
@@ -11,9 +12,11 @@ using NollyTickets.Ng.Data;
 namespace NollyTickets.Ng.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20221128100316_ShoopingcartId")]
+    partial class ShoopingcartId
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -162,6 +165,9 @@ namespace NollyTickets.Ng.Migrations
                     b.Property<int>("Amount")
                         .HasColumnType("int");
 
+                    b.Property<int?>("MoveId")
+                        .HasColumnType("int");
+
                     b.Property<int>("MovieId")
                         .HasColumnType("int");
 
@@ -173,7 +179,7 @@ namespace NollyTickets.Ng.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("MovieId");
+                    b.HasIndex("MoveId");
 
                     b.HasIndex("OrderId");
 
@@ -272,9 +278,7 @@ namespace NollyTickets.Ng.Migrations
                 {
                     b.HasOne("NollyTickets.Ng.Models.Movie", "Movie")
                         .WithMany()
-                        .HasForeignKey("MovieId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MoveId");
 
                     b.HasOne("NollyTickets.Ng.Models.Order", "Order")
                         .WithMany("OrderItems")

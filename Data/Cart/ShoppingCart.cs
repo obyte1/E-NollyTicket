@@ -1,5 +1,4 @@
-﻿using Microsoft.CodeAnalysis.VisualBasic.Syntax;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using NollyTickets.Ng.Models;
 
 namespace NollyTickets.Ng.Data.Cart
@@ -16,6 +15,19 @@ namespace NollyTickets.Ng.Data.Cart
         {
             _context = context; 
         }
+        public static ShoppingCart GetShoppingCart(IServiceProvider services)
+        {
+            ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
+            var context = services.GetService<ApplicationDbContext>();
+            //Check for cartId session. if it is null generate a new sesiom Id
+            string cartId = session.GetString("cartId") ?? Guid.NewGuid().ToString();
+            //set the session
+            session.SetString("cartId", cartId);
+
+            return new ShoppingCart(context) { ShopppingCartId = cartId };
+
+        }
+
         //Adding Item to shopping cart
         public void AddItemToCart(Movie movie)
         {
@@ -69,7 +81,15 @@ namespace NollyTickets.Ng.Data.Cart
         //for getting the shopping cart total.
         public double GetShoppingCartTotal() => _context.ShoppingCartItems.Where(n => n.ShopppingCartId == ShopppingCartId).Select(n =>
             n.Movie.Price * n.Amount).Sum();
-           
-        
+         
+        public async Task ClearShoppingCartAsync()
+        {
+            var items = await _context.ShoppingCartItems.Where(n => n.ShopppingCartId == ShopppingCartId).ToListAsync();
+             _context.ShoppingCartItems.RemoveRange(items);
+
+            await _context.SaveChangesAsync();
+        }
+
+
     }
 }
