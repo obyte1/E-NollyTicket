@@ -8,133 +8,133 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NollyTickets.Ng
 build_property.RootNamespace = NollyTickets.Ng
-build_property.ProjectDir = C:\Users\Decagon\source\ASPCORECRUD\NollyTickets.Ng\
+build_property.ProjectDir = C:\Users\Decagon\Source\Repos\e-NollyTickets\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Decagon\source\ASPCORECRUD\NollyTickets.Ng
+build_property.MSBuildProjectDirectory = C:\Users\Decagon\Source\Repos\e-NollyTickets
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Actors/Create.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Actors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Actors/Delete.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Actors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Actors/Details.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Actors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Actors/Edit.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Actors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Actors/Index.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Actors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Cinema/Create.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Cinema/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2luZW1hXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Cinema/Delete.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Cinema/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2luZW1hXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Cinema/Details.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Cinema/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2luZW1hXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Cinema/Edit.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Cinema/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2luZW1hXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Cinema/Index.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Cinema/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2luZW1hXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Movies/Create.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Movies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Movies/Details.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Movies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Movies/Edit.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Movies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Movies/Index.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Movies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Orders/Index.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Orders/OrderCompleted.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Orders/OrderCompleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXE9yZGVyQ29tcGxldGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Orders/ShoppingCart.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Orders/ShoppingCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFNob3BwaW5nQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Producers/Create.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Producers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Producers/Delete.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Producers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Producers/Details.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Producers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Producers/Edit.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Producers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Producers/Index.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Producers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Shared/Components/ShoppingCartSummary/Default.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Shared/Components/ShoppingCartSummary/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvcHBpbmdDYXJ0U3VtbWFyeVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Shared/Error.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Shared/NotFound.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Shared/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Shared/_CreateItem.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Shared/_CreateItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcmVhdGVJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Shared/_Notifications.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Shared/_Notifications.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/_ViewImports.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/_ViewStart.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Decagon/source/ASPCORECRUD/NollyTickets.Ng/Views/Shared/_Layout.cshtml]
+[C:/Users/Decagon/Source/Repos/e-NollyTickets/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qmj8binv6f
